@@ -1,0 +1,33 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+  html {
+    overflow-y: scroll;
+  }
+  #user {
+    position: absolute;
+    line-height: 45px;
+    color: gray;
+  }
+  body {
+    background-image: url(bgppl.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+  }
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
